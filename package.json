@@ -1,0 +1,22 @@
+{
+  "name": "roundup",
+  "version": "0.0.1",
+  "description": "get people together to meet over slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorharwin/roundup.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "taylor.harwin@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorharwin/roundup/issues"
+  },
+  "homepage": "https://github.com/taylorharwin/roundup#readme"
+}
