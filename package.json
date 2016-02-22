@@ -4,7 +4,9 @@
   "description": "get people together to meet over slack",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/taylorharwin/roundup/issues"
   },
-  "homepage": "https://github.com/taylorharwin/roundup#readme"
+  "homepage": "https://github.com/taylorharwin/roundup#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "lodash": "^4.5.1",
+    "moment": "^2.11.2",
+    "slackbots": "^0.5.1"
+  }
 }
